@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/txt_CalcYour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/txt_calculateyour"
+        android:textColor="@color/darkTexts"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txt_Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/txt_ageText"
+        android:padding="10dp"
+        android:textColor="@color/ageTxtColor"
+        android:background="@color/ageTxtBackground"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_InMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/txt_inMinutesText"
+        android:textColor="@color/darkTexts"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/btn_DatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_selectBirthDateText"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/txt_pickedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/darkTexts"
+        android:textSize="25sp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/txt_pickedDateDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/txt_selectedDateText"
+        android:textColor="@color/lightGreyTextColor"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txt_calculatedAgeInMins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/darkTexts"
+        android:textSize="25sp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/txt_calculatedAgeInMinsDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/txt_ageInMinutesTillDate"
+        android:textColor="@color/lightGreyTextColor"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txt_calculatedAgeInDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/darkTexts"
+        android:textSize="25sp"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/txt_calculatedAgeInDaysDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/txt_ageInDaysTillDate"
+        android:textColor="@color/lightGreyTextColor"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+</LinearLayout>
